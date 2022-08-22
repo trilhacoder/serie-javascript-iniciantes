@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .compra {
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+  
+  .compra h1 {
+    margin-bottom: 30px;
+  }
+  
+  .formulario > div {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .formulario > div div {
+    width: 50%;
+  }
+  
+  .formulario input {
+    width: 100%;
+    height: 30px;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .registrar {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+  
+  .tabela {
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .tabela tr {
+    height: 30px;
+  }
+  
+  .tabela td {
+    border-top: 1px solid lightgray;
+  }
+  
+  .detalhes {
+  /*   text-align: right; */
+    
+  }
+  
+  .detalhes p {
+  /*   text-align: right; */
+    margin-top: 5px;  
+  }
+
+  .mensagemErro {
+    color: red;
+    margin-bottom: 20px;
+    display: none;
+  }

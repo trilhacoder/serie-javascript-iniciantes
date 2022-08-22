@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="compra">
+        <h1>Compra</h1>
+
+        <p id="mensagemErro" class="mensagemErro"></p>
+        
+        <form class="formulario">
+            <label for="produto">Produto Comprado: </label>
+            <input type="text" id="produto"></input>
+            <div>
+            <div>
+                <label for="quantidade">Quantidade Comprada: </label>
+                <input type="text" id="quantidade"></input>   
+            </div>
+            <div>
+                <label for="preco-unitario">Preço Unitário: </label>
+                <input id="preco-unitario" type="text"></input>
+            </div>
+            </div>
+        
+            <button class="registrar" id="registrar">Registrar</button>
+        </form>
+        <br>
+        <table class="tabela" id="tabela">
+            <thead>
+            <tr>
+                <th>Produto Comprado</th>
+                <th>Quantidade Comprada</th>
+                <th>Preço Unitário</th>
+                <th>Preço Total Do Item</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        
+        <div class="detalhes">
+            <p>Valor Total Da Compra: R$ <span id="valorTotalDaCompra"></span></p>
+            <p>Forma De Pagamento: 
+            <select id="formaDePagamento">
+                <option value="dinheiro">dinheiro</option>
+                <option value="debito">débito</option>
+                <option value="credito">crédito</option>
+            </select>
+            </p>
+            <p>Desconto: R$ <span id="desconto">0.0</span></p>
+            <p>Total A Pagar: R$ <span id="totalAPagar">0.0</span></p>
+            <p>Valor Do Pagamento: R$ <input id="valorDoPagamento" type="text">
+            <p>Troco: R$ <span id="troco">0.0</span></p>
+        </div>
+    </div>
+</body>
+</html>
